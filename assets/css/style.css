@@ -2,7 +2,7 @@ header{
     grid-area: header;
     width: 100%;
     height: 80px;
-    background-color: #c9ffe5;
+    background-color: #c9ffe5
 }
 
 nav{
@@ -51,10 +51,6 @@ h3{
     background-color:bisque;
 }
 
-.footerr{
-    flex: 1;
-}
-
 main{
     grid-area: main;
     position: relative;
@@ -62,6 +58,11 @@ main{
     margin: auto;
     background-color: white;
     border: #dddddd 5px solid;
+}
+
+.culture{
+    width: 200px;
+    height: 150px;
 }
 
 .Images{
@@ -80,7 +81,7 @@ footer{
     grid-area: footer;  
     bottom: 0px;
     width: 100%;
-    background-color: teal;
+    background-color: #c9ffe5;
     border-top: #777777 5px solid;
     text-align: center;
     padding: 25px 0 0 0;
