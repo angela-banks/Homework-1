@@ -29,16 +29,16 @@ h1{
     padding: 10px;
     margin: 0%;
     left: calc(50% - 480px);
-  font-family: 'Staatliches', cursive;
-  font-size: 60px;
-  color: white;
-  background-color: bisque;
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    color: white;
+    background-color: #900C3F;
 }
 
 h2{
     font-family: 'Abel', sans-serif;
     font-size: 45px;
-    color: bisque;
+    color: #900C3F;
     padding: 5px;
     margin-top: 5px;
 }
@@ -51,7 +51,7 @@ h3{
     font-family: 'Abel', sans-serif;
     font-size: 24px;
     color: white;
-    background-color:bisque;
+    background-color: #900C3F;
 }
 
 /* About Me */
@@ -79,6 +79,7 @@ main{
 .Images{
     width: 200px;
     height: 150px;
+    
 }
 
 div{
@@ -91,7 +92,9 @@ div{
 /* Contact */
 
 #submit{
-    background-color: bisque;
+    padding: 10px;
+    background-color: #900C3F;
+    color: white;
 }
 
 #name{
@@ -121,8 +124,7 @@ body{
     grid-template-columns: auto;
     grid-template-rows: auto 1fr auto 2fr auto;
     grid-template-areas: "header" "." "main" "." "footer";
-    background-color: peachpuff;
-    background-image: url("../images/crossline-dots.png")
+    background-image: url("../images/fresh_snow.png");
 }
 
 
